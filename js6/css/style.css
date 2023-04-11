@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #404A5C;
+    overflow: hidden;
+}
+
+header {
+    position: relative;
+}
+
+h1 {
+    position: absolute;
+    font-weight: 200;
+    left: 25%;
+    margin-top: 30px;
+    color: rgba(128, 128, 128, 0.431);
+}
+
+input {
+    position: absolute;
+    left: 25%;
+    margin-top: 80px;
+    padding: 12px 0px;
+    width: 41%;
+    border-radius: 10px;
+    padding-left: 25px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.431);
+    border: 1px solid rgba(128, 128, 128, 0.431);
+}
+
+h3 {
+    display: inline;
+    position: absolute;
+    left: 68%;
+    margin-top: 92px;
+    color: purple;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+#h1-second {
+    margin-top: 12%;
+    font-weight: 800;
+}
+
+section {
+    position: relative;
+}
+
+section input {
+    position: absolute;
+    left: 25%;
+    margin-top: 16%;
+    padding: 15px 0;
+    width: 41%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+section button {
+    position: absolute;
+    left: 101%;
+    font-size: 18px;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: -7%;
+    background-color: #404A5C;
+    border: 1px solid #404A5C;
+    color: red;
+    cursor: pointer;
+}
+
+#list {
+    position: absolute;
+    left: 25%;
+    margin-top: 15%;
+    width: 41%;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding: 10px 0;
+    width: 40%;
+    color: white;
+}
+
+.no-tasks {
+    position: absolute;
+    margin-top: 17%;
+    left: 25%;
+    width: 25%;
+}

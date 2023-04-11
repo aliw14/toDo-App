@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Task List 2023</h1>
+
+        <input id="plans" placeholder="What do you have planned?" type="text">
+        <h3 onclick="myfunc()" id="add-task">Add task</h3>
+    </header>
+    <section>
+    
+        <h4 style="display: inline;">Tasks Count: <span id="number">0</span></h4>
+        <h1 id="h1-second">Tasks</h1>
+
+        <div class="alert alert-danger no-tasks" role="alert">
+            No Tasks  ... </div>
+
+        <div class="tasks">
+            <div id="list">
+            </div>
+            
+        </div>
+    </section>
+
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
